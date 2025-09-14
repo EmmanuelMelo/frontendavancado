@@ -1,10 +1,10 @@
 import React from 'react'
-import EstouConseguindoAprenderReact from './assets/components/EstouConseguindoAprenderReact'
+import EstaComSono from './assets/components/EstaComSono'
 
 const App = () => {
   return (
     <div>
-      <EstouConseguindoAprenderReact estouConseguindo={false} />
+      <EstaComSono estaComSono={false} />
     </div>
   )
 }
