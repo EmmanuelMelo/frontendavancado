@@ -1,16 +1,16 @@
 import React from 'react'
-import Aluno from './assets/components/Aluno'
+import Produto from './assets/components/Produto'
 
 const App = () => {
   return (
     <div>
       {
         [
-          {nome: 'Ronnie James Dio', email: 'dio@gmail.com', curso: 'Musica', media: 5.5},
-          {nome: 'Sol M. S.', email: 'solms@gmail.com', curso: 'Quimica', media: 9.5},
-          {nome: 'Liz M S', email: 'lizms@gmail.com', curso: 'Física', media: 10}
-        ].map((aluno) => 
-          <Aluno nome={aluno.nome} email={aluno.email} curso={aluno.curso} media={aluno.media}/>
+          {nome: 'Memória DDR4', preco: 250.00, categoria: 'outros', quantidade: 5},
+          {nome: 'Monito', preco: 859.25, categoria: 'perifericos', quantidade: 0},
+          {nome: 'Mouse', preco: 5.20, categoria: 'perifericos', quantidade: 10}
+        ].map((produto) => 
+          <Produto nome={produto.nome} preco={produto.preco} categoria={produto.categoria} quantidade={produto.quantidade}/>
         )
       }
     </div>
