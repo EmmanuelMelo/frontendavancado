@@ -1,10 +1,10 @@
 import React from 'react'
-import Imagens from './components/Imagens'
+import Exercicio2 from './components/Exercicio2'
 
 const App = () => {
   return (
     <>
-      <Imagens />
+      <Exercicio2 />
     </>
   )
 }
