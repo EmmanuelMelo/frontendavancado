@@ -1,0 +1,19 @@
+{
+    "alunos": [
+        {
+            "id": 1,
+            "nome": "Gabriel",
+            "email": "napao@gmail.com"
+        },
+        {
+            "id": 2,
+            "nome": "Wanderley",
+            "email": "silva@gmail.com"
+        },
+        {
+            "id": 3,
+            "nome": "Gina",
+            "email": "carano@gmail.com"
+        }
+    ]
+}
