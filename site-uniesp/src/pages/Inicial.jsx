@@ -1,9 +1,12 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
+import BannerAd from '../components/BannerAd'
 
 const Inicial = () => {
   return (
     <Container className="py-4">
+
+        <BannerAd />
 
         <Card className="mb-4 shadow-sm">
             <p>
